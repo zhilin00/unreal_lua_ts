@@ -3,6 +3,7 @@
 /Plugins/slua_unreal/Binaries/
 /Plugins/slua_unreal/Intermediate/
 /Plugins/lua_wrapper/Intermediate/
+/Plugins/lua_wrapper/Binaries/
 /OpenHarmony_ASTC/
 /.idea/
 /Binaries/
