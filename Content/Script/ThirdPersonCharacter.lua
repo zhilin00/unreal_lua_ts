@@ -7,6 +7,7 @@ local M = UnLua.Class()
 local Health = 0
 local TimerHandle
 local this
+local DefaultScale = FVector(1.0, 1.0, 1.0)
 local World
 
 function M:ReceiveBeginPlay()
@@ -31,7 +32,9 @@ end
 
 function M:OnTimerTick()
     local ShootingLocation = this:K2_GetActorLocation() + FVector(-30, 10, 30)
-    local ShootingPoint = UE.UKismetMathLibrary.Conv_VectorToTransform(ShootingLocation)
+    local ShootingRotation = this:K2_GetActorRotation()
+    local ShootingPoint = UE.UKismetMathLibrary.MakeTransform(ShootingLocation, ShootingRotation, DefaultScale)
+    --local ShootingPoint = UE.UKismetMathLibrary.Conv_VectorToTransform(ShootingLocation)
     local PlayerForwardDirection = this:K2_GetActorRotation()
     self:LHandleShotgun(ShootingPoint, PlayerForwardDirection)
 end
