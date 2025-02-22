@@ -10,7 +10,7 @@ public class ue4Lua : ModuleRules
 
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "HTTP" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "slua_unreal", "slua_profile", "Slate", "SlateCore", "UMG", "HTTP" });
+		PrivateDependencyModuleNames.AddRange(new string[] { "slua_unreal", "slua_profile", "Slate", "SlateCore", "UMG", "HTTP", "UnLua", "Lua",});
 
 		PrivateIncludePathModuleNames.AddRange(new string[] { "slua_unreal" });
 		PublicIncludePathModuleNames.AddRange(new string[] { "slua_unreal", "slua_profile" });
