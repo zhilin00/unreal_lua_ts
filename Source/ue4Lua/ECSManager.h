@@ -5,8 +5,11 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "flecs.h"
+#include "ECSManager.generated.h"
 
-class ECSManager {
-
+UCLASS()
+class  UECSManager : public UBlueprintFunctionLibrary {
+	GENERATED_BODY()
 };
 

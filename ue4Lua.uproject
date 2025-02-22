@@ -8,6 +8,11 @@
 			"Name": "ue4Lua",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
-		}
+		},
+        {
+            "Name": "FlecsLibrary",
+            "Type": "Runtime",
+            "LoadingPhase": "Default"
+        }
 	]
 }

@@ -8,9 +8,16 @@ public class ue4Lua : ModuleRules
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "HTTP" });
+		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "HeadMountedDisplay", "HTTP", "FlecsLibrary" });
 
-		PrivateDependencyModuleNames.AddRange(new string[] { "slua_unreal", "slua_profile", "Slate", "SlateCore", "UMG", "HTTP", "UnLua", "Lua",});
+		PrivateDependencyModuleNames.AddRange(new string[]
+		{
+			"UnLua",
+			"Lua",
+		});
+		PrivateDependencyModuleNames.AddRange(new string[] { "FlecsLibrary" });
+
+		PrivateDependencyModuleNames.AddRange(new string[] { "slua_unreal", "slua_profile", "Slate", "SlateCore", "UMG", "HTTP"});
 
 		PrivateIncludePathModuleNames.AddRange(new string[] { "slua_unreal" });
 		PublicIncludePathModuleNames.AddRange(new string[] { "slua_unreal", "slua_profile" });

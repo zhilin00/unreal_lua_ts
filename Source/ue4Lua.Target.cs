@@ -9,6 +9,6 @@ public class ue4LuaTarget : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("ue4Lua");
+		ExtraModuleNames.AddRange(new string[]{"ue4Lua", "FlecsLibrary"});
 	}
 }

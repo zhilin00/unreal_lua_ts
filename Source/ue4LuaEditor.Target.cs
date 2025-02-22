@@ -9,6 +9,6 @@ public class ue4LuaEditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-		ExtraModuleNames.Add("ue4Lua");
+		ExtraModuleNames.AddRange(new string[]{"ue4Lua", "FlecsLibrary"});
 	}
 }
