@@ -12,30 +12,27 @@ local DefaultScale = FVector(1.0, 1.0, 1.0)
 local DefaultRotation = FQuat(0.0, 0.0, 0.0, 1.0)
 
 function M:ReceiveTick(DeltaSeconds)
-    local World = self:GetWorld()
+  --[[  local World = self:GetWorld()
 
     local SpawnClass = self.SpawnEnemyClass
 
-    local x = math.random(-10000, 0)
-    local y = math.random(-10000, 0)
-    local z = math.random(-100, 300)
+
 
     local RandomPoint = FTransform()
-    RandomPoint.Translation = FVector(x,y,z)
     RandomPoint.Scale3D = DefaultScale
     RandomPoint.Rotation = DefaultRotation
 
-    if SpawnCount<SpawnNum then
-        World:SpawnActor(SpawnClass, RandomPoint, AlwaysSpawn, self, self, "EnemyPrefab")
-        SpawnCount = SpawnCount + 1
-    else
-        if SpawnTimer >= SpawnInterval then
-            SpawnCount = 0
-            SpawnInterval = 0
-        else
-            SpawnTimer = SpawnTimer + DeltaSeconds
+    if SpawnTimer >= SpawnInterval then
+        SpawnTimer = 0
+        for spawnCnt = 1, SpawnNum do
+            local x = math.random(-10000, 0)
+            local y = math.random(-10000, 0)
+            local z = math.random(-100, 300)
+            RandomPoint.Translation = FVector(x,y,z)
+            World:SpawnActor(SpawnClass, RandomPoint, AlwaysSpawn, self, self, "EnemyPrefab")
         end
     end
+    SpawnTimer = SpawnTimer + DeltaSeconds]]
 end
 
 return M
