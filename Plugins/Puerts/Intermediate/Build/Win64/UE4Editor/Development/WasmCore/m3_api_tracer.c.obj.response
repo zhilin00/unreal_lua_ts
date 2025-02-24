@@ -31,7 +31,7 @@
 /wd4244
 /wd4838
 /I .
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\Private
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\WasmCore\Private
 /I Runtime
 /I Runtime\TraceLog\Public
 /I Runtime\Core\Public
@@ -231,9 +231,9 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\Source
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\Public
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\WasmCore\Public
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -546,7 +546,7 @@
 /DUOBJECT_HAVE_FAST_WASM_POINTER=0
 /DWASM_CHECK_POINTER_IS_VALID=1
 /DWASMCORE_API=DLLEXPORT
-"D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\m3_api_tracer.c"
-/Fo"D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\WasmCore\m3_api_tracer.c.obj"
+"D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\m3_api_tracer.c"
+/Fo"D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\WasmCore\m3_api_tracer.c.obj"
 /TC
 /W0

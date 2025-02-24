@@ -21,22 +21,22 @@ class UPEClassMetaData;
 #endif
 #define PUERTSEDITOR_PEBlueprintAsset_generated_h
 
-#define unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_37_GENERATED_BODY \
+#define unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_37_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FPEGraphPinType_Statics; \
 	PUERTSEDITOR_API static class UScriptStruct* StaticStruct();
 
 
 template<> PUERTSEDITOR_API UScriptStruct* StaticStruct<struct FPEGraphPinType>();
 
-#define unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_22_GENERATED_BODY \
+#define unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_22_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FPEGraphTerminalType_Statics; \
 	PUERTSEDITOR_API static class UScriptStruct* StaticStruct();
 
 
 template<> PUERTSEDITOR_API UScriptStruct* StaticStruct<struct FPEGraphTerminalType>();
 
-#define unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_SPARSE_DATA
-#define unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_RPC_WRAPPERS \
+#define unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_SPARSE_DATA
+#define unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSave); \
 	DECLARE_FUNCTION(execRemoveNotExistedComponent); \
@@ -55,7 +55,7 @@ template<> PUERTSEDITOR_API UScriptStruct* StaticStruct<struct FPEGraphTerminalT
 	DECLARE_FUNCTION(execExisted);
 
 
-#define unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_RPC_WRAPPERS_NO_PURE_DECLS \
+#define unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSave); \
 	DECLARE_FUNCTION(execRemoveNotExistedComponent); \
@@ -74,7 +74,7 @@ template<> PUERTSEDITOR_API UScriptStruct* StaticStruct<struct FPEGraphTerminalT
 	DECLARE_FUNCTION(execExisted);
 
 
-#define unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_INCLASS_NO_PURE_DECLS \
+#define unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesUPEBlueprintAsset(); \
 	friend struct Z_Construct_UClass_UPEBlueprintAsset_Statics; \
@@ -83,7 +83,7 @@ public: \
 	DECLARE_SERIALIZER(UPEBlueprintAsset)
 
 
-#define unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_INCLASS \
+#define unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_INCLASS \
 private: \
 	static void StaticRegisterNativesUPEBlueprintAsset(); \
 	friend struct Z_Construct_UClass_UPEBlueprintAsset_Statics; \
@@ -92,7 +92,7 @@ public: \
 	DECLARE_SERIALIZER(UPEBlueprintAsset)
 
 
-#define unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_STANDARD_CONSTRUCTORS \
+#define unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPEBlueprintAsset(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPEBlueprintAsset) \
@@ -105,7 +105,7 @@ private: \
 public:
 
 
-#define unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_ENHANCED_CONSTRUCTORS \
+#define unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API UPEBlueprintAsset(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -118,28 +118,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UPEBlueprintAsset); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(UPEBlueprintAsset)
 
 
-#define unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_PRIVATE_PROPERTY_OFFSET
-#define unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_61_PROLOG
-#define unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_GENERATED_BODY_LEGACY \
+#define unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_PRIVATE_PROPERTY_OFFSET
+#define unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_61_PROLOG
+#define unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_PRIVATE_PROPERTY_OFFSET \
-	unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_SPARSE_DATA \
-	unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_RPC_WRAPPERS \
-	unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_INCLASS \
-	unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_STANDARD_CONSTRUCTORS \
+	unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_PRIVATE_PROPERTY_OFFSET \
+	unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_SPARSE_DATA \
+	unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_RPC_WRAPPERS \
+	unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_INCLASS \
+	unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_GENERATED_BODY \
+#define unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_PRIVATE_PROPERTY_OFFSET \
-	unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_SPARSE_DATA \
-	unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_RPC_WRAPPERS_NO_PURE_DECLS \
-	unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_INCLASS_NO_PURE_DECLS \
-	unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_ENHANCED_CONSTRUCTORS \
+	unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_PRIVATE_PROPERTY_OFFSET \
+	unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_SPARSE_DATA \
+	unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_RPC_WRAPPERS_NO_PURE_DECLS \
+	unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_INCLASS_NO_PURE_DECLS \
+	unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h_64_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -147,7 +147,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> PUERTSEDITOR_API UClass* StaticClass<class UPEBlueprintAsset>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID unreal_puerts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h
+#define CURRENT_FILE_ID unreal_lua_ts_Plugins_Puerts_Source_PuertsEditor_Public_PEBlueprintAsset_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

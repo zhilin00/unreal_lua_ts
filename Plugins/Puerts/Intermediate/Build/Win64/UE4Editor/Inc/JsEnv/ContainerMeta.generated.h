@@ -14,7 +14,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define JSENV_ContainerMeta_generated_h
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID unreal_puerts_Plugins_Puerts_Source_JsEnv_Private_ContainerMeta_h
+#define CURRENT_FILE_ID unreal_lua_ts_Plugins_Puerts_Source_JsEnv_Private_ContainerMeta_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

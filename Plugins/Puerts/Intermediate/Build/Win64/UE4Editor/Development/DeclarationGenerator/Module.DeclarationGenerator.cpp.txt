@@ -1,9 +1,9 @@
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\DeclarationGenerator\Definitions.DeclarationGenerator.h
-D:/PuerTS/unreal_puerts/Plugins/Puerts/Source/DeclarationGenerator/Private/CodeGenerator.cpp
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Public\CodeGenerator.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Inc\DeclarationGenerator\CodeGenerator.generated.h
-D:/PuerTS/unreal_puerts/Plugins/Puerts/Source/DeclarationGenerator/Private/DeclarationGenerator.cpp
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Public\IDeclarationGenerator.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\DeclarationGenerator\Definitions.DeclarationGenerator.h
+D:/PuerTS/unreal_lua_ts/Plugins/Puerts/Source/DeclarationGenerator/Private/CodeGenerator.cpp
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\DeclarationGenerator\Public\CodeGenerator.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Inc\DeclarationGenerator\CodeGenerator.generated.h
+D:/PuerTS/unreal_lua_ts/Plugins/Puerts/Source/DeclarationGenerator/Private/DeclarationGenerator.cpp
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\DeclarationGenerator\Public\IDeclarationGenerator.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\cstdio
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Projects\Public\Interfaces/IPluginManager.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Projects\Public\PluginDescriptor.h
@@ -118,7 +118,7 @@ D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/ConstructorHelpers.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Misc/RedirectCollector.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptStackTracker.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Public\TypeScriptDeclarationGenerator.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\DeclarationGenerator\Public\TypeScriptDeclarationGenerator.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\map
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\tuple
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\__msvc_iter_core.hpp
@@ -134,7 +134,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.3443
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\vector
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\__msvc_bit_utils.hpp
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\__msvc_sanitizer_annotate_container.hpp
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public\PropertyMacros.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\JsEnv\Public\PropertyMacros.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\UMG\Public\Components/PanelSlot.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\UMG\Public\Components/Visual.h
 D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Visual.generated.h
@@ -147,20 +147,20 @@ D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetReg
 D:\UESourceCode\U1-4.26.2\Engine\Source\Editor\LevelEditor\Public\LevelEditor.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Editor\LevelEditor\Public\ILevelEditor.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Editor\LevelEditor\Public\ViewportTypeDefinition.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Public\GenDTSStyle.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\DeclarationGenerator\Public\GenDTSStyle.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyle.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBorderBrush.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBoxBrush.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateColorBrush.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateImageBrush.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Public\GenDTSCommands.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\DeclarationGenerator\Public\GenDTSCommands.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Slate\Public\Framework/Notifications/NotificationManager.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SNotificationList.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Engine\Classes\Engine/UserDefinedStruct.h
 D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\UserDefinedStruct.generated.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Engine\Classes\Engine/UserDefinedEnum.h
 D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\UserDefinedEnum.generated.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public\JSClassRegister.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\JsEnv\Public\JSClassRegister.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\functional
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\unordered_map
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\xhash
@@ -172,74 +172,74 @@ C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.3443
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\iosfwd
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\string
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\cctype
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8.h
 C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\memory
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\cppgc/common.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8config.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-array-buffer.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-local-handle.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-internal.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-version.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-object.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-maybe.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-persistent-handle.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-weak-callback-info.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-primitive.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-data.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-value.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-traced-handle.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-container.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-context.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-snapshot.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-date.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-debug.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-script.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-message.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-exception.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-extension.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-external.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-function.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-function-callback.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-template.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-memory-span.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-initialization.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-callbacks.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-promise.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-isolate.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-embedder-heap.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-microtask.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-statistics.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-unwinder.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-embedder-state-scope.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-platform.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-json.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-locker.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-microtask-queue.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-primitive-object.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-proxy.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-regexp.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-typed-array.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-value-serializer.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-wasm.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public\NamespaceDef.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public\PuertsNamespaceDef.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public\TypeInfo.hpp
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\cppgc/common.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8config.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-array-buffer.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-local-handle.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-internal.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-version.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-object.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-maybe.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-persistent-handle.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-weak-callback-info.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-primitive.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-data.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-value.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-traced-handle.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-container.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-context.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-snapshot.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-date.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-debug.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-script.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-message.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-exception.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-extension.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-external.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-function.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-function-callback.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-template.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-memory-span.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-initialization.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-callbacks.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-promise.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-isolate.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-embedder-heap.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-microtask.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-statistics.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-unwinder.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-embedder-state-scope.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-platform.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-json.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-locker.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-microtask-queue.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-primitive-object.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-proxy.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-regexp.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-typed-array.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-value-serializer.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-wasm.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\JsEnv\Public\NamespaceDef.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\JsEnv\Public\PuertsNamespaceDef.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\JsEnv\Public\TypeInfo.hpp
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\DeveloperSettings\Public\Engine/DeveloperSettings.h
 D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DeveloperSettings\DeveloperSettings.generated.h
 D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\Puerts\Public\PuertsModule.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public\PathEscape.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Private\ExcludeStructs.h
-D:/PuerTS/unreal_puerts/Plugins/Puerts/Source/DeclarationGenerator/Private/GenDTSCommands.cpp
-D:/PuerTS/unreal_puerts/Plugins/Puerts/Source/DeclarationGenerator/Private/GenDTSStyle.cpp
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\Puerts\Public\PuertsModule.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\JsEnv\Public\PathEscape.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\DeclarationGenerator\Private\ExcludeStructs.h
+D:/PuerTS/unreal_lua_ts/Plugins/Puerts/Source/DeclarationGenerator/Private/GenDTSCommands.cpp
+D:/PuerTS/unreal_lua_ts/Plugins/Puerts/Source/DeclarationGenerator/Private/GenDTSStyle.cpp
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyleRegistry.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Engine\Public\Slate/SlateGameResources.h
-D:/PuerTS/unreal_puerts/Plugins/Puerts/Source/DeclarationGenerator/Private/TemplateBindingGenerator.cpp
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Public\TemplateBindingGenerator.h
+D:/PuerTS/unreal_lua_ts/Plugins/Puerts/Source/DeclarationGenerator/Private/TemplateBindingGenerator.cpp
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\DeclarationGenerator\Public\TemplateBindingGenerator.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Inc\DeclarationGenerator\TemplateBindingGenerator.generated.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Inc\DeclarationGenerator\TemplateBindingGenerator.generated.h

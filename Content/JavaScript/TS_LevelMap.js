@@ -17,30 +17,25 @@ class TS_LevelMap {
     // }
     ReceiveTick(DeltaSeconds) {
         // console.log("lr debug: level map tick");
-        if (this.SpawnCnt < this.SpawnNum) {
+        if (this.SpawnTimer >= this.SpawnInterval) {
             // console.log("lr debug: level map tick");
             let origin = new UE.Vector(-5000, -5000, 100);
             let boxExtent = new UE.Vector(5000, 5000, 200);
-            let randomPoint = UE.KismetMathLibrary.RandomPointInBoundingBox(origin, boxExtent);
-            let world = this.GetWorld();
-            let newTransform = new UE.Transform;
-            newTransform.SetLocation(randomPoint);
-            newTransform.SetRotation(new UE.Quat(0, 0, 0, 1));
-            newTransform.SetScale3D(new UE.Vector(1, 1, 1));
-            // console.log("lr debug: enemy transform ", UE.KismetMathLibrary.Conv_VectorToTransform(randomPoint).ToString());
-            let enemy = UE.GameplayStatics.BeginDeferredActorSpawnFromClass(world, TSEnemyWithMixin.StaticClass(), newTransform, UE.ESpawnActorCollisionHandlingMethod.AlwaysSpawn);
-            UE.GameplayStatics.FinishSpawningActor(enemy, newTransform);
-            // enemy.K2_SetActorLocation(randomPoint, false, null, false);
-            this.SpawnCnt++;
+            for (let i = 0; i < this.SpawnNum; i++) {
+                let randomPoint = UE.KismetMathLibrary.RandomPointInBoundingBox(origin, boxExtent);
+                let world = this.GetWorld();
+                let newTransform = new UE.Transform;
+                newTransform.SetLocation(randomPoint);
+                newTransform.SetRotation(new UE.Quat(0, 0, 0, 1));
+                newTransform.SetScale3D(new UE.Vector(1, 1, 1));
+                // console.log("lr debug: enemy transform ", UE.KismetMathLibrary.Conv_VectorToTransform(randomPoint).ToString());
+                let enemy = UE.GameplayStatics.BeginDeferredActorSpawnFromClass(world, TSEnemyWithMixin.StaticClass(), newTransform, UE.ESpawnActorCollisionHandlingMethod.AlwaysSpawn);
+                UE.GameplayStatics.FinishSpawningActor(enemy, newTransform);
+            }
+            this.SpawnTimer = 0;
         }
         else {
-            if (this.SpawnTimer >= this.SpawnInterval) {
-                this.SpawnCnt = 0;
-                this.SpawnTimer = 0;
-            }
-            else {
-                this.SpawnTimer += DeltaSeconds;
-            }
+            this.SpawnTimer += DeltaSeconds;
         }
     }
     ReceiveActorBeginOverlap(OtherActor) {

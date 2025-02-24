@@ -34,7 +34,7 @@
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN
 "D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\SharedPCH.CoreUObject.ShadowErrors.h.obj"
-"D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\ParamDefaultValueMetas\ParamDefaultValueMetasModule.cpp.obj"
+"D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\ParamDefaultValueMetas\ParamDefaultValueMetasModule.cpp.obj"
 "D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
 "D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Development\Core\UE4Editor-Core.lib"
 "D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Development\CoreUObject\UE4Editor-CoreUObject.lib"
@@ -62,8 +62,8 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"D:\PuerTS\unreal_puerts\Plugins\Puerts\Binaries\Win64\UE4Editor-ParamDefaultValueMetas.dll"
-/IMPLIB:"D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\ParamDefaultValueMetas\UE4Editor-ParamDefaultValueMetas.suppressed.lib"
-/PDB:"D:\PuerTS\unreal_puerts\Plugins\Puerts\Binaries\Win64\UE4Editor-ParamDefaultValueMetas.pdb"
+/OUT:"D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Binaries\Win64\UE4Editor-ParamDefaultValueMetas.dll"
+/IMPLIB:"D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\ParamDefaultValueMetas\UE4Editor-ParamDefaultValueMetas.suppressed.lib"
+/PDB:"D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Binaries\Win64\UE4Editor-ParamDefaultValueMetas.pdb"
 /ignore:4078
 /INCLUDE:IMPLEMENT_MODULE_ParamDefaultValueMetas

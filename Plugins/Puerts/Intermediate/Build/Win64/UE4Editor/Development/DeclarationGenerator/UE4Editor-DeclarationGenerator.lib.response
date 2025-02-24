@@ -7,8 +7,8 @@
 /IGNORE:4221
 /NODEFAULTLIB
 "D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.Cpp17.h.obj"
-"D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\DeclarationGenerator\Module.DeclarationGenerator.cpp.obj"
-"D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\DeclarationGenerator\Module.DeclarationGenerator.gen.cpp.obj"
+"D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\DeclarationGenerator\Module.DeclarationGenerator.cpp.obj"
+"D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\DeclarationGenerator\Module.DeclarationGenerator.gen.cpp.obj"
 "D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Development\Default.rc2.res"
-/OUT:"D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\DeclarationGenerator\UE4Editor-DeclarationGenerator.lib"
+/OUT:"D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\DeclarationGenerator\UE4Editor-DeclarationGenerator.lib"
 /INCLUDE:IMPLEMENT_MODULE_DeclarationGenerator

@@ -1,4 +1,4 @@
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\ParamDefaultValueMetas\Definitions.ParamDefaultValueMetas.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\ParamDefaultValueMetas\Definitions.ParamDefaultValueMetas.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Core.h
@@ -200,4 +200,4 @@ D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Misc/Redirect
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptStackTracker.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime/Launch/Resources/Version.h
 D:\UESourceCode\U1-4.26.2\Engine\Source\Programs\UnrealHeaderTool\Public\IScriptGeneratorPluginInterface.h
-D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public\PropertyMacros.h
+D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\JsEnv\Public\PropertyMacros.h

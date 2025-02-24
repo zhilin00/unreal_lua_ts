@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define JSENV_JsObject_generated_h
 
-#define unreal_puerts_Plugins_Puerts_Source_JsEnv_Public_JsObject_h_29_GENERATED_BODY \
+#define unreal_lua_ts_Plugins_Puerts_Source_JsEnv_Public_JsObject_h_29_GENERATED_BODY \
 	friend struct Z_Construct_UScriptStruct_FJsObject_Statics; \
 	JSENV_API static class UScriptStruct* StaticStruct();
 
@@ -21,7 +21,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 template<> JSENV_API UScriptStruct* StaticStruct<struct FJsObject>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID unreal_puerts_Plugins_Puerts_Source_JsEnv_Public_JsObject_h
+#define CURRENT_FILE_ID unreal_lua_ts_Plugins_Puerts_Source_JsEnv_Public_JsObject_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

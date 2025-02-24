@@ -31,7 +31,7 @@
 /wd4244
 /wd4838
 /I .
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\Puerts\Private
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\Puerts\Private
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd
 /I Editor
 /I Programs\UnrealLightmass\Public
@@ -231,21 +231,21 @@
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\AIModule
 /I Runtime\AIModule\Public
 /I Runtime\AIModule\Classes
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Inc\Puerts
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\Source
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\Puerts\Public
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Inc\Puerts
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\Puerts\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Serialization
 /I Runtime\Serialization\Public
 /I Runtime\Cbor\Public
 /I ThirdParty\OpenSSL\1.1.1\include\Win64\VS2015
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Inc\JsEnv
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\Include\websocketpp
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\Include\asio
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Inc\JsEnv
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\Include\websocketpp
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\Include\asio
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\JsEnv\Public
 /I Programs\UnrealHeaderTool\Public
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\Public
-/I D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\WasmCore\Public
+/I D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -278,9 +278,9 @@
 /FI"D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
 /Yu"D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h"
 /Fp"D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Development\UnrealEd\SharedPCH.UnrealEd.ShadowErrors.h.pch"
-"D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\Puerts\Module.Puerts.cpp"
-/FI"D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\Puerts\Definitions.Puerts.h"
-/Fo"D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\Puerts\Module.Puerts.cpp.obj"
+"D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\Puerts\Module.Puerts.cpp"
+/FI"D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\Puerts\Definitions.Puerts.h"
+/Fo"D:\PuerTS\unreal_lua_ts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\Puerts\Module.Puerts.cpp.obj"
 /TP
 /GR-
 /W4
