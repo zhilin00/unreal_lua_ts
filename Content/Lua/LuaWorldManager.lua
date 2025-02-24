@@ -4,7 +4,7 @@ local KismetMathLibrary=import'KismetMathLibrary';
 local luaMgr=  {}
 
 local spawnInterval = 0.3
-local spawnNum = 10
+local spawnNum = 100
 local DefaultScale = FVector(1.0, 1.0, 1.0)
 local DefaultRotation = FQuat(0.0, 0.0, 0.0, 1.0)
 

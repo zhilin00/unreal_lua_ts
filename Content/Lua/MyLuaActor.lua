@@ -40,8 +40,8 @@ function player:Shoot(ShootingLocation, PlayerForwardDirection)
         return
     end
 
-    for yaw = -3, 3 do
-        for pitch = -3, 3 do
+    for yaw = -6, 7 do
+        for pitch = -3, 4 do
             local Rotator = FRotator(pitch * 1.5, yaw * 1.5, 0)
             local speedRotator = KismetMathLibrary.ComposeRotators(Rotator, PlayerForwardDirection)
             local speedVector = KismetMathLibrary.Conv_RotatorToVector(speedRotator)
