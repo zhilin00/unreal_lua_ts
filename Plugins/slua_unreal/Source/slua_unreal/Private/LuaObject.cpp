@@ -1676,14 +1676,13 @@ namespace NS_SLUA {
 
     int LuaObject::objectToString(lua_State* L)
     {
-        const int BufMax = 128;
-        static char buffer[BufMax] = { 0 };
         bool isnil;
         UObject* obj = LuaObject::testudata<UObject>(L, 1, isnil);
         if (obj) {
             auto clsname = obj->GetClass()->GetFName().ToString();
             auto objname = obj->GetFName().ToString();
-            snprintf(buffer, BufMax, "%s: %p %s %p",TCHAR_TO_UTF8(*clsname), obj->GetClass(), TCHAR_TO_UTF8(*objname), obj);
+            lua_pushfstring(L, "%s: %p %s %p",TCHAR_TO_UTF8(*clsname), obj->GetClass(), TCHAR_TO_UTF8(*objname), obj);
+            return 1;
         }
         else {
             // if ud isn't a uobject, get __name of metatable to cast it to string
@@ -1692,13 +1691,13 @@ namespace NS_SLUA {
             // should have __name field
             if (tt == LUA_TSTRING) {
                 const char* metaname = lua_tostring(L,-1);
-                snprintf(buffer, BufMax, "%s: %p", metaname,ptr);
+                lua_pushfstring(L, "%s: %p", metaname,ptr);
+                return 1;
             }
             if (tt != LUA_TNIL)
                 lua_pop(L, 1);
         }
-
-        lua_pushstring(L, buffer);
+        lua_pushstring(L, "");
         return 1;
     }
 
@@ -2443,7 +2442,7 @@ namespace NS_SLUA {
         auto outerFunc = Cast<UFunction>(p->GetOwnerUObject());
 #endif
         if (lua_istable(L, i)) {
-            // Don't delete this below code: if you wan't strict limit for output parameter, then open it.
+            // Don't delete this below code: if you want strict limit for output parameter, then open it.
             /*if (IsReferenceParam(p->PropertyFlags, outerFunc) && !(p->PropertyFlags & CPF_ConstParm)) {
                 luaL_error(L, "reference arg %d expect %s, but got lua table!", i, TCHAR_TO_UTF8(*uss->GetName()));
                 return nullptr;
@@ -2451,6 +2450,14 @@ namespace NS_SLUA {
             fillUStructWithTable(L, p, parms, i);
             return nullptr;
         }
+
+        auto UD = (UserData<LuaStruct*>*)lua_touserdata(L, i);
+
+        if (!UD)
+            luaL_error(L, "arg %d expect userdata, but got %s", lua_absindex(L, i), lua_typename(L, i));
+
+        if (UD->flag & UD_HADFREE)
+            luaL_error(L, "arg %d had been freed, can't be used", lua_absindex(L, i));
 
         bool isLuaStruct = false;
         
@@ -2463,19 +2470,20 @@ namespace NS_SLUA {
             lua_pop(L, 2);
         }
         
-        LuaStruct* ls = nullptr;
-        if (isLuaStruct) {
-            auto UD = (UserData<LuaStruct*>*)lua_touserdata(L, i);
-            if (UD->flag & UD_HADFREE)
-                luaL_error(L, "arg %d had been freed, can't be used", lua_absindex(L, i));
-
-            ls = UD->ud;
-        }
-        else {
+        if (!isLuaStruct) {
             auto buf = LuaWrapper::checkValue(L, p, uss, parms, i);
-            if (buf)
-                return buf;
+            if (!buf) {
+                if (luaL_getmetafield(L, i, "__name") == LUA_TSTRING) {
+                    luaL_error(L, "expect struct of %s, but got %s", TCHAR_TO_UTF8(*uss->GetName()), lua_tostring(L, -1));
+                }
+                else {
+                    luaL_error(L, "expect struct of %s, but got %s", TCHAR_TO_UTF8(*uss->GetName()), lua_typename(L, i));
+                }
+            }
+            return buf;
         }
+
+        LuaStruct* ls = UD->ud;
 
         if(!ls) {
             luaL_error(L, "expect struct but got nil");

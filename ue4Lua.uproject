@@ -7,7 +7,11 @@
 		{
 			"Name": "ue4Lua",
 			"Type": "Runtime",
-			"LoadingPhase": "Default"
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"slua_unreal",
+				"Engine"
+			]
 		}
 	]
 }

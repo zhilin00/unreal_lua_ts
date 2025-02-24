@@ -132,6 +132,16 @@ namespace NS_SLUA {
 
     DefTypeName(LuaStruct)
 
+	template<class T>
+    struct IsLuaStruct {
+        enum { value = std::is_same<LuaStruct, T>::value };
+    };
+
+    template<class T>
+    struct IsLuaStruct<T*> {
+        enum { value = IsLuaStruct<T>::value };
+    };
+
     #define UD_NOFLAG 0
     #define UD_AUTOGC 1 // flag userdata should call __gc and maintain by lua
     #define UD_HADFREE 1<<2 // flag userdata had been freed
@@ -143,6 +153,7 @@ namespace NS_SLUA {
     #define UD_REFERENCE 1<<8
     #define UD_VALUETYPE 1<<9 // flag it's a valuetype, don't cache value by ptr
     #define UD_NETTYPE 1<<10 // flag it's a net replicate property
+    #define UD_CONST 1<<11 // flag it's a const struct
 
     struct UDBase {
         uint32 flag;
@@ -230,7 +241,7 @@ namespace NS_SLUA {
         }
 
         template<typename T>
-        static T* maybeAnUDTable(lua_State* L, int p,bool checkfree) {
+        static T* maybeAnUDTable(lua_State* L, int p) {
             if(lua_istable(L, p)) {
                 AutoStack as(L);
                 // use lua_rawget instead of lua_getfield to avoid __index loop!
@@ -240,8 +251,7 @@ namespace NS_SLUA {
                     void* ud = lua_touserdata(L, -1);
                     return (T*)ud;
                 }
-                else if (lua_type(L, -1) == LUA_TUSERDATA)
-                    return checkUD<T>(L, lua_absindex(L, -1), checkfree);
+                check(lua_type(L, -1) != LUA_TUSERDATA);
             }
             return nullptr;
         }
@@ -269,11 +279,17 @@ namespace NS_SLUA {
                 }
             }
             else if (!t)
-                return maybeAnUDTable<T>(L, p,checkfree);
+                t = maybeAnUDTable<T>(L, p);
 
-            // check UObject is valid
-            if (isUObjectValid(t)) return t;
-            return nullptr;
+            if (checkfree && t && !isUObjectValid(t)) {
+                if (!t->IsValidLowLevel())
+                    luaL_error(L, "expect valid UObject at %d, it's Destroyed!", p);
+                if (!IsValid(t))
+                    luaL_error(L, "expect valid UObject at %d, maybe it's PendingKill!", p);
+                if (!t->IsUnreachable())
+                    luaL_error(L, "expect valid UObject at %d, maybe it's Unreachable!", p);
+            }
+            return t;
         }
 
         // testudata, if T is uobject
@@ -283,13 +299,20 @@ namespace NS_SLUA {
             auto ptr = (UserData<UObject*>*)getUserdataFast(L, p, "UObject", isnil);
             if (isnil) { return nullptr; }
             CHECK_UD_VALID(ptr);
-            if (!ptr) {
-                return maybeAnUDTable<T>(L, p, checkfree);
+            T* t = ptr?ptr->ud:nullptr;
+            if (!t) {
+                t = maybeAnUDTable<T>(L, p);
             }
-            if (isUObjectValid(ptr->ud) || !checkfree) {
-                return ptr->ud;
+            
+            if (checkfree && t && !isUObjectValid(t)) {
+                if (!t->IsValidLowLevel())
+                    luaL_error(L, "expect valid UObject at %d, maybe it's Destroyed!", p);
+                if (!IsValid(t))
+                    luaL_error(L, "expect valid UObject at %d, maybe it's PendingKill!", p);
+                if (!t->IsUnreachable())
+                    luaL_error(L, "expect valid UObject at %d, it's Unreachable!", p);
             }
-            return nullptr;
+            return t;
         }
 
         template<class T>
@@ -337,7 +360,7 @@ namespace NS_SLUA {
                     return unboxSharedUDRef<T>(L,ptr);
                 }
             }
-            if (!ptr) return maybeAnUDTable<T>(L, p, checkfree);
+            if (!ptr) return maybeAnUDTable<T>(L, p);
             return ptr?ptr->ud:nullptr;
         }
 
@@ -376,8 +399,8 @@ namespace NS_SLUA {
         static void finishType(lua_State* L, const char* tn, lua_CFunction ctor, lua_CFunction gc, lua_CFunction strHint=nullptr);
 
         // check UObject is valid
-        static bool isUObjectValid(UObject* obj) {
-            return IsValid(obj) && !obj->IsUnreachable();
+        static inline bool isUObjectValid(UObject* obj) {
+            return obj && obj->IsValidLowLevel() && IsValid(obj) && !obj->IsUnreachable();
         }
 
         static inline bool isBinStringProperty(FProperty* inner)
@@ -779,8 +802,8 @@ namespace NS_SLUA {
         static void unlinkProp(lua_State* L, void* prop);
 
         template<class T>
-        static int pushAndLink(lua_State* L, const void* parent, const char* tn, const T* v, void* proxy, uint16 replicatedIndex) {
-            NewNetStructUD(T, v, UD_NOFLAG)
+        static int pushAndLink(lua_State* L, const void* parent, const char* tn, const T* v, void* proxy, uint16 replicatedIndex, uint32 flag) {
+            NewNetStructUD(T, v, flag)
             luaL_getmetatable(L, tn);
             lua_setmetatable(L, -2);
             linkProp(L, void_cast(parent), void_cast(udptr));
@@ -803,7 +826,7 @@ namespace NS_SLUA {
             return ret;
         }
 
-        template<class T, bool F = IsUObject<T>::value >
+        template<class T, bool bIsObject = IsUObject<T>::value, bool bIsStruct = IsLuaStruct<T>::value >
         static int pushType(lua_State* L,T cls,const char* tn,lua_CFunction setupmt=nullptr,lua_CFunction gc=nullptr, short nuvalues=1) {
             if(!cls) {
                 lua_pushnil(L);
@@ -818,7 +841,8 @@ namespace NS_SLUA {
             ud->parent = nullptr;
             ud->ud = cls;
             ud->flag = gc!=nullptr?UD_AUTOGC:UD_NOFLAG;
-            if (F) ud->flag |= UD_UOBJECT;
+            if (bIsObject) ud->flag |= UD_UOBJECT;
+            if (bIsStruct) ud->flag |= UD_USTRUCT;
             setupMetaTable(L,tn,setupmt,gc);
             return 1;
         }
