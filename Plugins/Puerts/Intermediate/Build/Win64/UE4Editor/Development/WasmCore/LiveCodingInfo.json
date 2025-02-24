@@ -1,0 +1,15 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.WasmCore.cpp.obj": [
+			"Wasm3ExportDef.cpp.obj",
+			"WasmCore.cpp.obj",
+			"WasmEnv.cpp.obj",
+			"WasmFunction.cpp.obj",
+			"WasmModule.cpp.obj",
+			"WasmModuleInstance.cpp.obj",
+			"WasmRuntime.cpp.obj",
+			"WasmStaticLink.cpp.obj"
+		]
+	}
+}

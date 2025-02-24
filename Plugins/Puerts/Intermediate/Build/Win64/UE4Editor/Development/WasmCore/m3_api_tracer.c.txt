@@ -1,0 +1,38 @@
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\m3_api_tracer.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\m3_core.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stdio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\vcruntime.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\sal.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\concurrencysal.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\vadefs.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wstdio.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_stdio_config.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stdlib.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_malloc.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_search.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\stddef.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wstdlib.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\limits.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\stdbool.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\string.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_memory.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_memcpy_s.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\errno.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\vcruntime_string.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\corecrt_wstring.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\assert.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\wasm3.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\stdint.h
+C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt\inttypes.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\stdarg.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\wasm3_defs.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\m3_config.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\m3_config_platforms.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\m3_env.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\m3_code.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\m3_compile.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\m3_exec_defs.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\m3_function.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\m3_exception.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\WasmCore\ThirdPart\wasm3\m3_config.h

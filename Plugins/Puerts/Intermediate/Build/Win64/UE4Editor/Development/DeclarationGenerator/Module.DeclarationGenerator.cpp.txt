@@ -1,0 +1,245 @@
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Development\DeclarationGenerator\Definitions.DeclarationGenerator.h
+D:/PuerTS/unreal_puerts/Plugins/Puerts/Source/DeclarationGenerator/Private/CodeGenerator.cpp
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Public\CodeGenerator.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Inc\DeclarationGenerator\CodeGenerator.generated.h
+D:/PuerTS/unreal_puerts/Plugins/Puerts/Source/DeclarationGenerator/Private/DeclarationGenerator.cpp
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Public\IDeclarationGenerator.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\cstdio
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Projects\Public\Interfaces/IPluginManager.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Projects\Public\PluginDescriptor.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Projects\Public\ModuleDescriptor.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Json\Public\Serialization/JsonWriter.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Json\Public\Serialization/JsonTypes.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Projects\Public\CustomBuildSteps.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Projects\Public\LocalizationDescriptor.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Projects\Public\PluginReferenceDescriptor.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\CoreUObject.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Core.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformStackWalk.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\HAL/PlatformStackWalk.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformStackWalk.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformNamedPipe.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\HAL/PlatformNamedPipe.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformNamedPipe.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\GenericPlatform/GenericPlatformCriticalSection.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\HAL/PlatformFile.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Windows/WindowsPlatformFile.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\HAL/PlatformIncludes.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/MonolithicHeaderBoilerplate.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ScopedDebugInfo.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ExternalProfiler.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/StringUtility.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Serialization/NameAsStringProxyArchive.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Containers/MRUArray.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Containers/TransArray.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Containers/ArrayBuilder.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/SingleThreadEvent.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\HAL/ThreadManager.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/FileHelper.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Containers/StaticBitArray.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Containers/MapBuilder.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\HAL/ThreadingBase.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Internationalization/TextLocalizationManagerGlobals.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Internationalization/Culture.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Logging/LogSuppressionInterface.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\HAL/OutputDevices.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Logging/LogScopedVerbosityOverride.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceNull.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceMemory.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceFile.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceDebug.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceArchiveWrapper.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceAnsiError.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Stats/StatsMisc.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/TimeGuard.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Serialization/LargeMemoryWriter.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Serialization/LargeMemoryData.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Serialization/LargeMemoryReader.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Serialization/BufferArchive.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Serialization/ArrayReader.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Serialization/ArrayWriter.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Serialization/BufferWriter.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/WildcardString.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Containers/CircularBuffer.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Containers/CircularQueue.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\ProfilingDebugging/ProfilingHelpers.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceHelper.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/SlowTaskStack.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/FeedbackContext.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/ScopedSlowTask.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/AutomationTest.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Async/Async.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Internationalization/Regex.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/CallbackDevice.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/LocalTimestampDirectoryVisitor.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\UObject/BlueprintsObjectVersion.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\UObject/BuildObjectVersion.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\UObject/CoreObjectVersion.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\UObject/EditorObjectVersion.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\UObject/FrameworkObjectVersion.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\UObject/MobileObjectVersion.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\UObject/NetworkingObjectVersion.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\UObject/OnlineObjectVersion.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\UObject/PhysicsObjectVersion.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\UObject/PlatformObjectVersion.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\UObject/SequencerObjectVersion.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\UObject/VRObjectVersion.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/OutputDeviceConsole.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Misc/MonitoredProcess.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/ErrorException.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectAllocator.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Misc/TextBuffer.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/PropertyLocalizationDataGathering.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/LevelGuids.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/ObjectMemoryAnalyzer.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/ReferenceChainSearch.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\HAL/ThreadHeartBeat.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Internationalization/TextPackageNamespaceUtil.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Internationalization/TextNamespaceUtil.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveCountMem.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/ObjectAndNameAsStringProxyArchive.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/ObjectWriter.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/ObjectReader.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveShowReferences.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/FindReferencersArchive.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/FindObjectReferencers.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveFindCulprit.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/DuplicatedObject.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/DuplicatedDataReader.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/DuplicatedDataWriter.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveReplaceObjectRef.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveReplaceOrClearExternalReferences.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveObjectPropertyMapper.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveReferenceMarker.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Serialization/ArchiveObjectCrc32.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/ConstructorHelpers.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Misc/RedirectCollector.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/ScriptStackTracker.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Public\TypeScriptDeclarationGenerator.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\map
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\tuple
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\__msvc_iter_core.hpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\utility
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\xtree
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\xmemory
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\limits
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\cfloat
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\cwchar
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\xutility
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\xnode_handle.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\xpolymorphic_allocator.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\vector
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\__msvc_bit_utils.hpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\__msvc_sanitizer_annotate_container.hpp
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public\PropertyMacros.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\UMG\Public\Components/PanelSlot.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\UMG\Public\Components/Visual.h
+D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\Visual.generated.h
+D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG\PanelSlot.generated.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistryModule.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/AssetRegistryModule.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\AssetRegistry\Public\AssetRegistry/IAssetRegistry.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\Misc/AssetRegistryInterface.h
+D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry\IAssetRegistry.generated.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Editor\LevelEditor\Public\LevelEditor.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Editor\LevelEditor\Public\ILevelEditor.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Editor\LevelEditor\Public\ViewportTypeDefinition.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Public\GenDTSStyle.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyle.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBorderBrush.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateBoxBrush.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateColorBrush.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\SlateCore\Public\Brushes/SlateImageBrush.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Public\GenDTSCommands.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Slate\Public\Framework/Notifications/NotificationManager.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Slate\Public\Widgets/Notifications/SNotificationList.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Engine\Classes\Engine/UserDefinedStruct.h
+D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\UserDefinedStruct.generated.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Engine\Classes\Engine/UserDefinedEnum.h
+D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\UserDefinedEnum.generated.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public\JSClassRegister.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\functional
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\unordered_map
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\xhash
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\cmath
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\list
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\xbit_ops.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\xstring
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\__msvc_string_view.hpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\iosfwd
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\string
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\cctype
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8.h
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\INCLUDE\memory
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\cppgc/common.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8config.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-array-buffer.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-local-handle.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-internal.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-version.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-object.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-maybe.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-persistent-handle.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-weak-callback-info.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-primitive.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-data.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-value.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-traced-handle.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-container.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-context.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-snapshot.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-date.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-debug.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-script.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-message.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-exception.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-extension.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-external.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-function.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-function-callback.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-template.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-memory-span.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-initialization.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-callbacks.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-promise.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-isolate.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-embedder-heap.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-microtask.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-statistics.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-unwinder.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-embedder-state-scope.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-platform.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-json.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-locker.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-microtask-queue.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-primitive-object.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-proxy.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-regexp.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-typed-array.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-value-serializer.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\ThirdParty\v8_10.6.194\Inc\v8-wasm.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public\NamespaceDef.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public\PuertsNamespaceDef.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public\TypeInfo.hpp
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\DeveloperSettings\Public\Engine/DeveloperSettings.h
+D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DeveloperSettings\DeveloperSettings.generated.h
+D:\UESourceCode\U1-4.26.2\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\Puerts\Public\PuertsModule.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\JsEnv\Public\PathEscape.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Private\ExcludeStructs.h
+D:/PuerTS/unreal_puerts/Plugins/Puerts/Source/DeclarationGenerator/Private/GenDTSCommands.cpp
+D:/PuerTS/unreal_puerts/Plugins/Puerts/Source/DeclarationGenerator/Private/GenDTSStyle.cpp
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\SlateCore\Public\Styling/SlateStyleRegistry.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Engine\Public\Slate/SlateGameResources.h
+D:/PuerTS/unreal_puerts/Plugins/Puerts/Source/DeclarationGenerator/Private/TemplateBindingGenerator.cpp
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Source\DeclarationGenerator\Public\TemplateBindingGenerator.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/NoExportTypes.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\CoreUObject\Public\UObject/PropertyAccessUtil.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Math/UnitConversion.h
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Math/UnitConversion.inl
+D:\UESourceCode\U1-4.26.2\Engine\Source\Runtime\Core\Public\Internationalization/PolyglotTextData.h
+D:\PuerTS\unreal_puerts\Plugins\Puerts\Intermediate\Build\Win64\UE4Editor\Inc\DeclarationGenerator\TemplateBindingGenerator.generated.h

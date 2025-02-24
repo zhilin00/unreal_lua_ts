@@ -1,0 +1,16 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{CB01F536-43CE-6783-A08A-C28DB9970A85}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "unreal_puerts",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"Engine"
+			]
+		}
+	]
+}

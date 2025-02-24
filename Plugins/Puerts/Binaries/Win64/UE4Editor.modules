@@ -1,0 +1,12 @@
+{
+	"BuildId": "827d3ef9-1cc5-4ade-b1ed-beb3783ce211",
+	"Modules": 
+	{
+		"DeclarationGenerator": "UE4Editor-DeclarationGenerator-0002.dll",
+		"JsEnv": "UE4Editor-JsEnv.dll",
+		"ParamDefaultValueMetas": "UE4Editor-ParamDefaultValueMetas-0002.dll",
+		"Puerts": "UE4Editor-Puerts-0002.dll",
+		"PuertsEditor": "UE4Editor-PuertsEditor-0002.dll",
+		"WasmCore": "UE4Editor-WasmCore-0002.dll"
+	}
+}
